@@ -60,7 +60,7 @@ int main() {
 
     pid_t lockPID = fork();
     if(lockPID == -1){
-        fprintf(stderr, "Shit hit the fan");
+        fprintf(stderr, "Unable to start i3 lock");
         return 1;
     }
 
